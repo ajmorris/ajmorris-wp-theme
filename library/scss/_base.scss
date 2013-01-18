@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height:1.5;
 	color: $bodyText;
-	background: url(../images/debut_dark.png);
+	background: url(../images/bright_squares/bright_squares.png);
 }
 
 p {
@@ -76,7 +76,8 @@ LAYOUT & GRID STYLES
 	width: 96%;
 	margin: 0 auto;
 	background: $white;
-	padding: 0 10px;
+	@include box-shadow(0px 0px 5px lighten($black, 40% ) );
+	padding: 0 20px;
 }
 
 /*********************
@@ -138,11 +139,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.25em;
 }
 
 h4, .h4 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-weight: 500;
 }
 
@@ -183,7 +184,6 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			background-color: $border;
 			border-bottom: 1px solid $navigation;
 
 			/*
@@ -248,10 +248,6 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-
-#content {
-	margin-top: 2.2em;
-}
 
 		.hentry {
 

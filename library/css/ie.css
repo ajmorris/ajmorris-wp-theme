@@ -38,26 +38,36 @@ remember less is more.
 /*********************
 CLEARFIXIN'
 *********************/
+/* line 23, ../scss/_mixins.scss */
 .clearfix {
-  zoom: 1; }
-  .clearfix:before, .clearfix:after {
-    content: "";
-    display: table; }
-  .clearfix:after {
-    clear: both; }
+  zoom: 1;
+}
+/* line 25, ../scss/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 26, ../scss/_mixins.scss */
+.clearfix:after {
+  clear: both;
+}
 
 /*********************
 TOOLS
 *********************/
+/* line 33, ../scss/_mixins.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
+/* line 39, ../scss/_mixins.scss */
 .image-replacement {
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /*********************
 COLORS
@@ -69,39 +79,57 @@ TYPOGRAPHY
 use the best ampersand
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
+/* line 79, ../scss/_mixins.scss */
 span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
-  font-style: italic; }
+  font-style: italic;
+}
 
+/* line 85, ../scss/_mixins.scss */
 .text-left {
-  text-align: left; }
+  text-align: left;
+}
 
+/* line 86, ../scss/_mixins.scss */
 .text-center {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 87, ../scss/_mixins.scss */
 .text-right {
-  text-align: right; }
+  text-align: right;
+}
 
+/* line 91, ../scss/_mixins.scss */
 .alert-help, .alert-info, .alert-error, .alert-success {
   margin: 10px;
   padding: 5px 18px;
-  border: 1px solid; }
+  border: 1px solid;
+}
 
+/* line 97, ../scss/_mixins.scss */
 .alert-help {
   border-color: #e8dc59;
-  background: #ebe16f; }
+  background: #ebe16f;
+}
 
+/* line 103, ../scss/_mixins.scss */
 .alert-info {
   border-color: #bfe4f4;
-  background: #d5edf8; }
+  background: #d5edf8;
+}
 
+/* line 109, ../scss/_mixins.scss */
 .alert-error {
   border-color: #f8cdce;
-  background: #fbe3e4; }
+  background: #fbe3e4;
+}
 
+/* line 115, ../scss/_mixins.scss */
 .alert-success {
   border-color: #deeaae;
-  background: #e6efc2; }
+  background: #e6efc2;
+}
 
 /*********************
 TRANISTION
@@ -127,6 +155,7 @@ probably best not to use it. I mean, were you going to anyway? */
 /*********************
 BUTTONS
 *********************/
+/* line 177, ../scss/_mixins.scss */
 .button, .button:visited {
   font-family: "Oswald", "Georgia", Cambria, Times New Roman, Times, serif;
   border: 1px solid #12699f;
@@ -149,26 +178,32 @@ BUTTONS
   background-image: -webkit-linear-gradient(top, #1990db, #1681c4);
   background-image: -moz-linear-gradient(top, #1990db, #1681c4);
   background-image: -o-linear-gradient(top, #1990db, #1681c4);
-  background-image: linear-gradient(to bottom, #1990db, #1681c4); }
-  .button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
-    color: white;
-    border: 1px solid #12699f;
-    border-top-color: #0f547f;
-    border-left-color: #0f547f;
-    background-color: #1472ad;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1472ad));
-    background-image: -webkit-linear-gradient(top, #1681c4, #1472ad);
-    background-image: -moz-linear-gradient(top, #1681c4, #1472ad);
-    background-image: -o-linear-gradient(top, #1681c4, #1472ad);
-    background-image: linear-gradient(to bottom, #1681c4, #1472ad); }
-  .button:active, .button:visited:active {
-    background-color: #1990db;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
-    background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
-    background-image: -moz-linear-gradient(top, #1681c4, #1990db);
-    background-image: -o-linear-gradient(top, #1681c4, #1990db);
-    background-image: linear-gradient(to bottom, #1681c4, #1990db); }
+  background-image: linear-gradient(to bottom, #1990db, #1681c4);
+}
+/* line 197, ../scss/_mixins.scss */
+.button:hover, .button:focus, .button:visited:hover, .button:visited:focus {
+  color: white;
+  border: 1px solid #12699f;
+  border-top-color: #0f547f;
+  border-left-color: #0f547f;
+  background-color: #1472ad;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1472ad));
+  background-image: -webkit-linear-gradient(top, #1681c4, #1472ad);
+  background-image: -moz-linear-gradient(top, #1681c4, #1472ad);
+  background-image: -o-linear-gradient(top, #1681c4, #1472ad);
+  background-image: linear-gradient(to bottom, #1681c4, #1472ad);
+}
+/* line 205, ../scss/_mixins.scss */
+.button:active, .button:visited:active {
+  background-color: #1990db;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
+  background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
+  background-image: -moz-linear-gradient(top, #1681c4, #1990db);
+  background-image: -o-linear-gradient(top, #1681c4, #1990db);
+  background-image: linear-gradient(to bottom, #1681c4, #1990db);
+}
 
+/* line 210, ../scss/_mixins.scss */
 .blue-button, .blue-button:visited {
   border-color: #1472ad;
   text-shadow: 0 1px 1px #1472ad;
@@ -178,28 +213,35 @@ BUTTONS
   background-image: -moz-linear-gradient(top, #1990db, #1681c4);
   background-image: -o-linear-gradient(top, #1990db, #1681c4);
   background-image: linear-gradient(to bottom, #1990db, #1681c4);
-  box-shadow: inset 0 0 3px #59b3ec; }
-  .blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
-    border-color: #116396;
-    background-color: #1472ad;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1784c9), to(#1472ad));
-    background-image: -webkit-linear-gradient(top, #1784c9, #1472ad);
-    background-image: -moz-linear-gradient(top, #1784c9, #1472ad);
-    background-image: -o-linear-gradient(top, #1784c9, #1472ad);
-    background-image: linear-gradient(to bottom, #1784c9, #1472ad); }
-  .blue-button:active, .blue-button:visited:active {
-    background-color: #1990db;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
-    background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
-    background-image: -moz-linear-gradient(top, #1681c4, #1990db);
-    background-image: -o-linear-gradient(top, #1681c4, #1990db);
-    background-image: linear-gradient(to bottom, #1681c4, #1990db); }
+  box-shadow: inset 0 0 3px #59b3ec;
+}
+/* line 216, ../scss/_mixins.scss */
+.blue-button:hover, .blue-button:focus, .blue-button:visited:hover, .blue-button:visited:focus {
+  border-color: #116396;
+  background-color: #1472ad;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1784c9), to(#1472ad));
+  background-image: -webkit-linear-gradient(top, #1784c9, #1472ad);
+  background-image: -moz-linear-gradient(top, #1784c9, #1472ad);
+  background-image: -o-linear-gradient(top, #1784c9, #1472ad);
+  background-image: linear-gradient(to bottom, #1784c9, #1472ad);
+}
+/* line 220, ../scss/_mixins.scss */
+.blue-button:active, .blue-button:visited:active {
+  background-color: #1990db;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1681c4), to(#1990db));
+  background-image: -webkit-linear-gradient(top, #1681c4, #1990db);
+  background-image: -moz-linear-gradient(top, #1681c4, #1990db);
+  background-image: -o-linear-gradient(top, #1681c4, #1990db);
+  background-image: linear-gradient(to bottom, #1681c4, #1990db);
+}
 
 /*********************
 ACCESSIBILITY
 *********************/
+/* line 228, ../scss/_mixins.scss */
 .screen-reader-text {
-  display: none; }
+  display: none;
+}
 
 /******************************************************************
 Site Name: 
@@ -221,42 +263,58 @@ upon your base.scss styles.
 NAVIGATION STYLES
 *********************/
 /* .menu is clearfixed inside mixins.scss */
+/* line 27, ../scss/_481up.scss */
 .menu {
-  /* end .menu ul */ }
-  .menu ul {
-    /* end .menu ul li */
-    /* highlight current page */
-    /* end current highlighters */ }
-    .menu ul li {
-      /*
-      plan your menus and drop-downs wisely.
-      */ }
-      .menu ul li a {
-        /*
-        you can use hover styles here even though this size
-        has the possibility of being a mobile device.
-        */ }
+  /* end .menu ul */
+}
+/* line 28, ../scss/_481up.scss */
+.menu ul {
+  /* end .menu ul li */
+  /* highlight current page */
+  /* end current highlighters */
+}
+/* line 29, ../scss/_481up.scss */
+.menu ul li {
+  /*
+  plan your menus and drop-downs wisely.
+  */
+}
+/* line 30, ../scss/_481up.scss */
+.menu ul li a {
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
 
 /* end .menu */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 /* entry content */
+/* line 75, ../scss/_481up.scss */
 .entry-content {
-  /* at this larger size, we can start to align images */ }
-  .entry-content .alignleft, .entry-content img.alignleft {
-    margin-right: 1.5em;
-    display: inline;
-    float: left; }
-  .entry-content .alignright, .entry-content img.alignright {
-    margin-left: 1.5em;
-    display: inline;
-    float: right; }
-  .entry-content .aligncenter, .entry-content img.aligncenter {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    clear: both; }
+  /* at this larger size, we can start to align images */
+}
+/* line 79, ../scss/_481up.scss */
+.entry-content .alignleft, .entry-content img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+/* line 84, ../scss/_481up.scss */
+.entry-content .alignright, .entry-content img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+/* line 89, ../scss/_481up.scss */
+.entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
 
 /* end .entry-content */
 /*********************
@@ -286,8 +344,10 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
+/* line 26, ../scss/_768up.scss */
 .wrap {
-  max-width: 1140px; }
+  max-width: 1140px;
+}
 
 /*********************
 HEADER SYTLES
@@ -295,77 +355,105 @@ HEADER SYTLES
 /*********************
 NAVIGATION STYLES
 *********************/
+/* line 42, ../scss/_768up.scss */
 .nav {
-  background: #eee;
+  background: #f2f2f2;
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
-  /* end current highlighters */ }
-  .nav li {
-    float: left;
-    position: relative;
-    /*
-    plan your menus and drop-downs wisely.
-    */
-    /* showing sub-menus */ }
-    .nav li a {
-      border-bottom: 0;
-      /*
-      you can use hover styles here even though this size
-      has the possibility of being a mobile device.
-      */ }
-      .nav li a:hover, .nav li a:focus {
-        background-color: #dedede; }
-    .nav li ul.sub-menu,
-    .nav li ul.children {
-      width: 200px;
-      border: 1px solid #ccc;
-      border-top: 0;
-      position: absolute;
-      display: none;
-      z-index: 8999;
-      /* highlight sub-menu current page */ }
-      .nav li ul.sub-menu li,
-      .nav li ul.children li {
-        /*
-        if you need to go deeper, go nuts
-        just remember deeper menus suck
-        for usability. k, bai.
-        */ }
-        .nav li ul.sub-menu li a,
-        .nav li ul.children li a {
-          padding-left: 10px;
-          border-right: 0;
-          display: block;
-          width: 180px;
-          border-bottom: 1px solid #ccc; }
-        .nav li ul.sub-menu li:last-child a,
-        .nav li ul.children li:last-child a {
-          border-bottom: 0; }
-    .nav li:hover ul {
-      top: auto;
-      display: block; }
+  /* end current highlighters */
+}
+/* line 46, ../scss/_768up.scss */
+.nav li {
+  float: left;
+  position: relative;
+  /*
+  plan your menus and drop-downs wisely.
+  */
+  /* showing sub-menus */
+}
+/* line 50, ../scss/_768up.scss */
+.nav li a {
+  border-bottom: 0;
+  /*
+  you can use hover styles here even though this size
+  has the possibility of being a mobile device.
+  */
+}
+/* line 57, ../scss/_768up.scss */
+.nav li a:hover, .nav li a:focus {
+  background-color: #dedede;
+}
+/* line 70, ../scss/_768up.scss */
+.nav li ul.sub-menu,
+.nav li ul.children {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-top: 0;
+  position: absolute;
+  display: none;
+  z-index: 8999;
+  /* highlight sub-menu current page */
+}
+/* line 78, ../scss/_768up.scss */
+.nav li ul.sub-menu li,
+.nav li ul.children li {
+  /*
+  if you need to go deeper, go nuts
+  just remember deeper menus suck
+  for usability. k, bai.
+  */
+}
+/* line 80, ../scss/_768up.scss */
+.nav li ul.sub-menu li a,
+.nav li ul.children li a {
+  padding-left: 10px;
+  border-right: 0;
+  display: block;
+  width: 180px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 97, ../scss/_768up.scss */
+.nav li ul.sub-menu li:last-child a,
+.nav li ul.children li:last-child a {
+  border-bottom: 0;
+}
+/* line 119, ../scss/_768up.scss */
+.nav li:hover ul {
+  top: auto;
+  display: block;
+}
 
 /* end .nav */
 /*********************
 SIDEBARS & ASIDES
 *********************/
+/* line 139, ../scss/_768up.scss */
 .sidebar {
-  margin-top: 2.2em; }
+  margin-top: 2.2em;
+}
 
+/* line 143, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.75em;
+}
 
+/* line 148, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
-  margin: 2.2em 0; }
-  .widget ul li {
-    margin-bottom: 0.75em;
-    /* deep nesting */ }
-    .widget ul li ul {
-      margin-top: 0.75em;
-      padding-left: 1em; }
+  margin: 2.2em 0;
+}
+/* line 153, ../scss/_768up.scss */
+.widget ul li {
+  margin-bottom: 0.75em;
+  /* deep nesting */
+}
+/* line 161, ../scss/_768up.scss */
+.widget ul li ul {
+  margin-top: 0.75em;
+  padding-left: 1em;
+}
 
 /* links widget */
 /* meta widget */
@@ -386,12 +474,14 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+/* line 269, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
   it's very rare to have multi-depth menus in
   the footer.
-  */ }
+  */
+}
 
 /* end .footer-links */
 /******************************************************************
