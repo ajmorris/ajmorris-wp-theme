@@ -48,13 +48,12 @@
 							<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 							
 							<!-- if you'd like to use the site description you can un-comment it below -->
-							<?php // bloginfo('description'); ?>
-							
-							
-							<nav role="navigation">
-								<?php bones_main_nav(); ?>
-							</nav>
+							<?php echo bloginfo('description'); ?>
 						
 						</div> <!-- end #inner-header -->
+					
+						<nav role="navigation">
+							<?php bones_main_nav(); ?>
+						</nav>
 					
 					</header> <!-- end header -->
